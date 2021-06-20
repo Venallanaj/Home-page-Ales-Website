@@ -8,83 +8,87 @@
   <title>Web page</title>
   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="css/app.css">
-  <!-- <link rel="stylesheet" href="css/foundation.css">  -->
   <link rel="stylesheet" href="css/stylee.css">
-  <style>
-    .title-bar {
-      display: none;
-    }
-  </style>
 </head>
+
+
 
 <body>
 
-  <div class="construction" id="build" onscroll="myFunction()">
+
+
+  <div class="backgroundimg" id="home">
     <div class="grid-container full">
-      <div class="grid-x  grid-margin-x">
-        <header class="cell text-left">
-          <a href="/"><img src="images/Group 74.png" alt="Logo for construction"></a>
+      <div class="grid-x grid-margin-x">
+        <header class="cell top-left">
+          <a href="/"><img src="images/Group 74.png" alt="Logo for Construction"></a>
         </header>
       </div>
 
-      <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <!-- <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
         <div class="title-bar-title">Menu</div>
-      </div>
+      </div>   -->
 
-      <div class="" id="responsive-menu">
+      <div class="topnav" id="responsive-menu">
         <nav class="top-bar-right">
-          <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-            <li class=""><a href="index.html">Home</a></li>
-            <li class="#"><a href="index.html">About Us</a></li>
-            <li><a href="">Construction</a></li>
-            <li><a href="">Investment</a></li>
-            <li><a href="">Design</a></li>
-            <li><a href="">Certification</a></li>
-            <li><a href=""><strong>Contact Us</strong></a></li>
+          <ul class="vertical medium-horizontal menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Construction</a></li>
+            <li><a href="#">Investment</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Certification</a></li>
+            <li><a href="#"><strong>Contact </strong></a></li>
+
+            </a>
           </ul>
         </nav>
       </div>
 
 
-    </div>
 
+
+      <!-- <div class="bottomleft">
+        <span><i class="fab fa-facebook"></i></span>
+        <span><i class="fab fa-google-plus"></i></span>
+        <span> <i class="fab fa-linkedin-in"></i></span>
+      </div> -->
+
+
+      <!-- <div class="container">
+
+      <div class="bottomright">
+        <h1 class="title">TidTower</h1>
+        <h2 class="subtitle">Center of Tirana</h2>
+        <a class="button warning" href="#">Read More</a>
+      </div>
+    </div> -->
+
+    </div>
   </div>
 
 
 
-  <!-- <div class="grid-x grid-padding-y  small-up-1 medium-up-3">
-        <div class="social-icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-google-plus"></i>
-          <i class="fab fa-linkedin-in"></i>
-        </div>
+
+
+
+
+  <!-- <div class="bottom-right">
+       
+         
+            <h1 class="title">TidTower</h1>
+        
+            <h2 class="subtitle">Center of Tirana</h2>
+         
+           <div class="button warning">Read More</div>
+  
+        </div> 
       </div> -->
 
-  <!-- <div class="grid-x grid-padding-y  small-up-1 medium-up-3">
-        <div class="grid-x grid-padding-x">
-          <div class="row">
-            <div class="small-3 columns">
-              <h1>Tid Tower </h1>
-            </div>
-            <div class="small-3 columns">
-              <h3>Center of Tirana</h3>
-            </div>
-            <div class="small-3 columns">
-              <a class="button warning" href="#" id="button">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>  -->
 
-
-
-
-
-
-
+  <!--Section our services-->
   <br /><br /><br /><br />
-  <section class="our-services ">
+  <section class="our-services">
     <h2 class="section-title" style="text-align: center;">Our Services</h2>
     <div class="grid-container">
       <div class="grid-x grid-margin-x grid-padding-x">
@@ -92,7 +96,7 @@
         <div class="medium-4 large-4 cell"> <i class="fas fa-building "></i>
           <br>
 
-          <h6>CONSTRUCTION</h6>
+          <h6 class="titleone">CONSTRUCTION</h6>
           <div style="max-width: 225px;">
             <div class="change-font">
               <p style="font-size: 0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -108,7 +112,7 @@
 
         <div class="medium-4 large-4 cell"> <i class="fas fa-handshake "></i>
           <br>
-          <h6>INVESTMENT</h6>
+          <h6 class="titletwo">INVESTMENT</h6>
           <div style="max-width: 225px;">
             <div class="change-font">
               <p style="font-size: 0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -122,7 +126,7 @@
 
         <div class="medium-4 large-4 cell"><i class="fab fa-artstation"></i>
           <br>
-          <h6 id="design">DESIGN</h6>
+          <h6 class="titlethree">DESIGN</h6>
           <div style="max-width: 225px;">
             <div class="change-font">
               <p style="font-size: 0.8em;">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -137,7 +141,7 @@
     </div>
 
   </section>
-
+  <!--/Section our services-->
 
   <!--About Us-->
   <section class="about-us" id="about">
@@ -145,23 +149,23 @@
     <div class="grid-container grid-container-padded">
       <div class="grid-x grid-margin-x">
         <div class="medium-8 large-8 cell">
-          <br/><br/>
-          <h1 id="aboutus"> About Us</h1>
+          <br /><br />
+          <h1 class="aboutus"> About Us</h1>
 
           <div class="about-text">
             <p>Ales Construction Ltd began its activity in 1999 as a construction company and today we operate with a
               qualified and experienced staff, made of architects, civil engineers, economists, technicians,
               marketing managers, as well as more than 150 qualified construction workers and specialists,
               and still expanding.</p>
-            <p>After many years of experience, we find ourselves amongst the most active
+            <p> After many years of experience, we find ourselves amongst the most active
               construction companies in Albania in investment, construction, and design, always
               delivering at optimal quality, correctness and accomplishment of schedules in all
               of our enterprises.</p>
             <p> Since 2016, Ales Construction has expanded its activity outside of the Albanian
               borders, working in the structure works of Porto Budva, the largest current residential
               and retail development in the seaside of the touristic city of Montenegro, as well
-              as the newly established company in Doha, Qatar.
-              <br>
+              as the newly established company in Doha, Qatar.</p>
+            <br>
             <figure>
               <img class="about-img" src="images/Image_2.png" alt="log for about">
             </figure>
@@ -174,16 +178,13 @@
 
         </div>
 
-
-
-
         <div class=" medium-4 large-4 cell"> <img class="about-img" src="images/james-sullivan-ESZRBtkQ_f8-uns.png"
-            alt="A picture of about">
+            alt="A picture of about" width="640px" height="640px">
         </div>
       </div>
     </div>
   </section>
-
+  <!--/About Us-->
 
 
   <!--Our Project-->
@@ -195,26 +196,30 @@
         <div class="medium-4 large-4 cell">
           <img src="images/Mask_Group_1.png" alt="foto 1 about or Project">
           <br><br>
-          <h5 class="project-title" style="margin-right: 12em;">The Green nest</h5>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            ait.Lorem ipsum dolor sit ame .</p>
+          <h5 class="project-title">The Green nest</h5>
+          <div class="shortdesription">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              ait.Lorem ipsum dolor sit ame .</p>
+          </div>
         </div>
 
         <div class="medium-4 large-4 cell">
           <img src="images/Mask_Group_2.png" alt="foto 2 about or Project">
           <br><br>
-          <h5 class="project-title" style="margin-right: 12em;">The Green nest</h5>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            ait.Lorem ipsum dolor sit ame.</p>
+          <h5 class="project-title">The Green nest</h5>
+          <div class="shortdesription">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              ait.Lorem ipsum dolor sit ame .</p>
+          </div>
         </div>
         <div class="medium-4 large-4 cell">
           <img src="images/Mask_Group_3.png " alt="foto 3 about or Project">
           <br><br>
-          <h5 class="project-title" style="margin-right: 7em;">The "namazgjja" mosque</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            ait.Lorem ipsum dolor sit ame .</p>
+          <h5 class="project-title" id="projectthree">The "namazgjja" mosque</h5>
+          <div class="shortdesription">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              ait.Lorem ipsum dolor sit ame .</p>
+          </div>
         </div>
       </div>
     </div>
@@ -222,7 +227,6 @@
 
   <!--/Our Project-->
   <br /><br /><br />
-
   <!--Our Partners-->
   <section class="our-partners">
     <br />
@@ -265,24 +269,17 @@
       </div>
 
     </div>
-    </div>
+
 
 
   </footer>
 
 
 
-<script>
-  function myFunction() {
-    document.getElementById('build').position = 'fixed';
-    console.log(true);
 
-  }
-</script>
-<!-- <script src="js/vendor/jquery.js"></script> -->
-<!-- <script src="js/vendor/what-input.js"></script> -->
-<!-- <script src="js/vendor/foundation.js"></script> -->
-<script src="js/app.js"></script>
+  <!-- <script src="js/vendor/jquery.js"></script> -->
+  <!-- <script src="js/vendor/what-input.js"></script> -->
+  <!-- <script src="js/vendor/foundation.js"></script> -->
 </body>
 
 </html>
