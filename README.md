@@ -1,7 +1,7 @@
-# Foundation SAAS for Ales Project
+#  Installation Foundation 6 (SASS) through CLI.
 
 
-THis is  a project is  created with Foundation SAAS.
+THis is  a project is  created with Foundation SASS.
 
 Firstly:
 You should install in your pc on windows:
@@ -10,7 +10,7 @@ Step by step.
 1. Install Git 
 2. Install Node.js 
 
-Please be careful compatible version NPM with version Foundation.
+Please be careful compatible version NPM with version Foundation 6.
 
 This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
